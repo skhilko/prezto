@@ -79,7 +79,3 @@ if [[ ! -d "$TMPPREFIX" ]]; then
   mkdir -p "$TMPPREFIX"
 fi
 
-#
-# Environment Variables
-#
-export MAVEN_OPTS="-Xms512m -Xmx1024m -XX:MaxPermSize=384m"
